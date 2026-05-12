@@ -1,0 +1,22 @@
+{
+	"name": "dimfactbooking_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServicetoADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "data_ec5e80ef-355a-412f-ad62-8326a9fb41e8_f4fcf582-bd55-4931-86e9-ac60ce68a7e5.parquet",
+				"folderPath": "SQL Files",
+				"fileSystem": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,21 @@
+{
+	"name": "DSLookup",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServicetoADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "lastload.json",
+				"folderPath": "monitor/lastload",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

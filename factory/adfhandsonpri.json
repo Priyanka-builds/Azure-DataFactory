@@ -1,0 +1,15 @@
+{
+	"name": "adfhandsonpri",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8316b4a3-6126-4bed-aff9-295636f65c2d",
+		"tenantId": "2f3a43a3-ffc7-45b3-b4a8-e44de3e64b8a"
+	}
+}

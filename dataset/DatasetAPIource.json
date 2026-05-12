@@ -1,0 +1,19 @@
+{
+	"name": "DatasetAPIource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedService_Github",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Priyanka-builds/Azure-DataFactory/refs/heads/main/Rawdata/DimAirport.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

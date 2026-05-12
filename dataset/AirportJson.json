@@ -1,0 +1,21 @@
+{
+	"name": "AirportJson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkedServicetoADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DimAiport.json",
+				"folderPath": "GitFiles",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
