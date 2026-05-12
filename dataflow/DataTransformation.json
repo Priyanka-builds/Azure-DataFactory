@@ -132,7 +132,7 @@
 				"     skipDuplicateMapOutputs: true) ~> Header",
 				"Header derive(Country = upper(Country)) ~> CountryFormat",
 				"DimFlight select(mapColumn(",
-				"          FlightId = flight_id,",
+				"          FlightsId = flight_id,",
 				"          FlightNumber = flight_number,",
 				"          ArrivalTime = arrival_time",
 				"     ),",
